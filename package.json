@@ -1,8 +1,7 @@
 {
-  "name": "simia",
+  "name": "SIMIA",
   "version": "1.0.0",
-  "description": "A nuxt project generated based on a UIDL document",
-  "author": "teleporthq.io",
+  "description": "SIMIA Static website",
   "private": true,
   "scripts": {
     "dev": "nuxt",
