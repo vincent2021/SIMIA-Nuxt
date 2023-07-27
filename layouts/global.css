@@ -1,9 +1,16 @@
 
 @font-face {
-    font-family: 'bimbofinetip';
+    font-family: 'bimbo-finetip';
     src: url('@/assets/bimbofinetip-webfont.woff2') format('woff2'),
          url('@/assets/bimbofinetip-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
+}
+@font-face {
+    font-family: 'bimbo-regular';
+    src:  url('@/assets/bimbo-regular.woff2') format('woff2'),
+            url('@/assets/bimbo-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }

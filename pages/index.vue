@@ -18,32 +18,33 @@
     </div>
     <div class="home-container3">
       <h1 class="home-text">
-        NOS JOLIES TÉTINES NATURELLES ONT TIRÉ LEUR RÉVÉRENCE
+        NOS TÉTINES ONT TIRÉ LEUR RÉVÉRENCE
       </h1>
     </div>
     <div class="home-hero">
+      <img alt="image" src="/Byebye-SIMIA.png" class="home-image3" />
       <div class="home-hero-text-container">
         <span class="home-text01">
           <span><span v-html="rawi5lh"></span></span>
           <span class="home-text03">
-            Elles ont été les complices privilégiées des sommeils apaisés et des
-            nuits parfois plus animées de vos tout petits.
+            Nos jolies tétines naturelles ont été les complices privilégiées des sommeils apaisés et des
+            nuits parfois animées de vos tout petits.
           </span>
           <br class="Section-Text" />
           <br class="Section-Text" />
           <span class="home-text06">
-            Nous avons eu à cœur de produire en France et d’utiliser de belles
-            matières, parfaitement saines et qui respectent la planète.
+            Nous avons eu à cœur de produire en France et de travailler de belles
+            matières, parfaitement saines, qui respectent la planète.
           </span>
           <br class="Section-Text" />
           <br class="Section-Text" />
           <span class="home-text09">
-            Nous espérons de tout cœur que nos tétines en auront inspiré beaucoup
+            Nous espérons de tout cœur que notre aventure en aura inspiré beaucoup
             d&apos;autres.
           </span>
           <br class="Section-Text" />
           <br class="Section-Text" />
-          <span class="Section-Text">
+          <span class="home-text09">
             Un immense merci pour vos commandes, les photos si mignonnes de vos
             tout petits, tous vos mots. Cette aventure a été incroyable grâce à
             vous.
@@ -51,7 +52,7 @@
           <br class="Section-Text" />
         </span>
       </div>
-      <img alt="image" src="/img_right-1500w.webp" class="home-image3" />
+
     </div>
     <a
       href="mailto:bonjour@simia.co?subject=Contact"
@@ -258,47 +259,43 @@ export default {
   align-items: center;
   margin-left: var(--dl-space-space-doubleunit);
   margin-right: var(--dl-space-space-doubleunit);
-  margin-bottom: var(--dl-space-space-tripleunit);
+  margin-bottom: var(--dl-space-space-halfunit);
   justify-content: center;
 }
 .home-text {
   color: rgb(245, 176, 176);
   width: 893px;
-  height: 158px;
   font-size: 48px;
   font-style: normal;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
-  font-family: BimboFinetip;
-  font-weight: 300;
-  margin-bottom: var(--dl-space-space-fiveunits);
+  font-family: bimbo-finetip;
 }
 .home-hero {
   width: 100%;
-  height: 875px;
   display: flex;
+  height: fit-content;
   max-width: var(--dl-size-size-maxcontent);
   align-items: center;
-  padding-top: var(--dl-space-space-fiveunits);
+  padding-top: var(--dl-space-space-halfunit);
   padding-left: var(--dl-space-space-tripleunit);
   margin-bottom: var(--dl-space-space-halfunit);
   padding-right: var(--dl-space-space-tripleunit);
   flex-direction: row;
   padding-bottom: var(--dl-space-space-fiveunits);
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .home-hero-text-container {
   width: 35%;
-  height: 530px;
   display: flex;
   align-items: flex-start;
-  margin-left: 50px;
   flex-direction: column;
 }
 .home-text01 {
   color: var(--dl-color-gray-500);
   align-self: flex-start;
-  margin-bottom: var(--dl-space-space-tenunits);
+  font-size: 22px;
+  text-align: justify;
 }
 .home-image3 {
   width: 50%;
@@ -339,114 +336,8 @@ export default {
 .home-text14 {
   color: #ffffff;
 }
-@media(max-width: 1200px) {
-  .home-container2 {
-    box-shadow: 5px 5px 10px 0px #d4d4d4;
-    border-color: var(--dl-color-gray-black);
-    border-radius: var(--dl-radius-radius-radius4);
-  }
-  .home-image2 {
-    border-radius: var(--dl-radius-radius-radius4);
-  }
-  .home-text {
-    color: rgb(245, 176, 176);
-    height: 134px;
-    font-size: 48px;
-    font-style: inherit;
-    font-family: Bimbo Finetip;
-    font-weight: inherit;
-    margin-bottom: 0px;
-  }
-  .home-text01 {
-    color: var(--dl-color-gray-500);
-  }
-  .home-text03 {
-    color: var(--dl-color-gray-500);
-  }
-  .home-text06 {
-    color: var(--dl-color-gray-500);
-  }
-  .home-text09 {
-    color: var(--dl-color-gray-500);
-  }
-  .home-footer {
-    flex: 1;
-    border-color: #000000;
-  }
-}
+
 @media(max-width: 991px) {
-  .home-image2 {
-    box-shadow: 0px 5px 10px 0px #d4d4d4;
-  }
-  .home-container3 {
-    flex: 1;
-  }
-  .home-text {
-    color: rgb(245, 176, 176);
-    height: 116px;
-    text-align: center;
-    font-family: Bimbo-regular;
-  }
-  .home-hero {
-    height: 1460px;
-    flex-direction: column-reverse;
-  }
-  .home-hero-text-container {
-    width: 80%;
-    margin-left: 0px;
-  }
-  .home-image3 {
-    width: 80%;
-    height: 1057px;
-    margin-top: var(--dl-space-space-tripleunit);
-    margin-bottom: var(--dl-space-space-tripleunit);
-  }
-  .home-cta-btn1 {
-    width: 40%;
-  }
-}
-@media(max-width: 767px) {
-  .home-image2 {
-    flex: 1;
-    height: auto;
-  }
-  .home-container3 {
-    flex: 1;
-    margin-top: var(--dl-space-space-unit);
-  }
-  .home-text {
-    color: rgb(245, 176, 176);
-    width: 767px;
-    height: 56px;
-    font-size: 48px;
-    align-self: center;
-    font-style: normal;
-    text-align: center;
-    font-family: BimboFinetip;
-    font-weight: 400;
-    padding-left: var(--dl-space-space-fourunits);
-    margin-bottom: 0px;
-    padding-right: var(--dl-space-space-fourunits);
-  }
-  .home-hero {
-    flex: 1;
-  }
-  .home-text01 {
-    text-align: center;
-  }
-  .home-image3 {
-    flex: 1;
-  }
-  .home-cta-btn1 {
-    width: auto;
-    align-self: center;
-  }
-  .home-footer {
-    flex: 1;
-    margin-top: var(--dl-space-space-unit);
-  }
-}
-@media(max-width: 479px) {
   .home-cta-btn {
     font-size: 16px;
     padding-left: var(--dl-space-space-doubleunit);
@@ -461,28 +352,35 @@ export default {
   }
   .home-text {
     color: rgb(245, 176, 176);
-    height: 21px;
-    font-size: 24px;
+    height: fit-content;
+    font-size: 28px;
     align-self: center;
     font-style: normal;
     text-align: center;
-    font-family: BimboFinetip;
-    font-weight: 400;
+
     padding-top: 5px;
     padding-left: 0px;
     padding-right: 0px;
+    
   }
   .home-hero {
+    flex-direction: column-reverse;
     flex: 1;
   }
   .home-hero-text-container {
     width: 100%;
+    height: auto;
+    text-align: justify;
+
   }
   .home-text01 {
     align-self: stretch;
+    font-size: 14px;
+    text-align: justify;
   }
   .home-image3 {
     flex: 1;
+    padding-top: var(--dl-space-space-tripleunit);
     width: 100%;
     height: 675px;
   }
