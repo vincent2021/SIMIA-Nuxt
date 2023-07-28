@@ -350,6 +350,9 @@ export default {
     padding-right: var(--dl-space-space-doubleunit);
     padding-bottom: var(--dl-space-space-unit);
   }
+  .home-image2 {
+  height: 390px;
+  }
   .home-text {
     color: rgb(245, 176, 176);
     height: fit-content;
